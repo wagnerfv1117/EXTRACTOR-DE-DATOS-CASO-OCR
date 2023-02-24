@@ -9,7 +9,7 @@ my_image = cv2.imread('C:/Users/wagne/OneDrive - POLICIA NACIONAL DE COLOMBIA/Do
 txt = tess.image_to_string(my_image)#Se hace un string para que la librería pytessract haga el reconocimiento de caracteres en la imgen o escaneado
 print(txt)#Se imprime la variable txt, definida anteriormente
 
-# 3- Metodo para que muestre la imagen después de leerla
+# 3-Metodo para que muestre la imagen después de leerla
 cv2.imshow('Image', my_image)#Metodo para que la maquina muestre la imagen
 cv2.waitKey(0)#El contador para mostrar la imagen analizada
 cv2.destroyAllWindows()#Apertura en una ventana con insterfaz del Sistema Operativo
