@@ -1,6 +1,6 @@
 ## **Acerca del proyecto**
 
-Extractor de datos OCR con IA y Python
+Extractor de datos OCR con VA y Python
 
 ### **Lenguajes usados**
 
